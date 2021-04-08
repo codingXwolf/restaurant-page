@@ -1,12 +1,16 @@
 import "./App.css";
-import Header from "./components/Header";
-import { Layout } from "antd";
+import Head from "./components/Head";
+import Foot from "./components/Foot";
+import Contents from './components/Contents'
+import { Layout  } from "antd";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Header />
+        <Head/>
+        <Contents/>
+        <Foot/>
       </Layout>
     </div>
   );
