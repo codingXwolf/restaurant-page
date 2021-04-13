@@ -1,9 +1,11 @@
-const Content = () => {
-    return (
-        <>
-           <p>This is the content section</p> 
-        </>
-    )
-}
+import { Button } from "semantic-ui-react";
 
-export default Content
+const Content = () => {
+  return (
+    <>
+      <p>This is the content section</p>
+    </>
+  );
+};
+
+export default Content;
