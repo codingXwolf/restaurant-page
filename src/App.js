@@ -1,17 +1,15 @@
 import "./App.css";
-import Head from "./components/Head";
-import Foot from "./components/Foot";
-import Contents from './components/Contents'
-import { Layout  } from "antd";
+import "semantic-ui-css/semantic.min.css";
+import Header from './components/Header'
+import Content from './components/Content'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <Head/>
-        <Contents/>
-        <Foot/>
-      </Layout>
+      <Header/>
+      <Content/>
+      <Footer/>
     </div>
   );
 }
