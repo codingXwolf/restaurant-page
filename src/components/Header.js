@@ -4,7 +4,7 @@ import{ useState, useEffect } from 'react'
 const Header = () => {
 
   // Decalring a new state variable called activeItem
-  const [activeItem, setActiveItem ] = useState('home');
+  const [activeItem, setActiveItem ] = useState('menu');
 
 
 
@@ -13,20 +13,20 @@ const Header = () => {
       <Segment inverted>
         <Menu inverted pointing secondary stackable>
           <Menu.Item
-            name="home"
-            active={activeItem === "home"}
-            onClick={() => setActiveItem('home')}
+            name="menu"
+            active={activeItem === "menu"}
+            onClick={() => setActiveItem('menu')}
           />
           <Menu.Item
-            name="messages"
-            active={activeItem === "messages"}
-            onClick={() => setActiveItem('messages')}
+            name="about"
+            active={activeItem === "about"}
+            onClick={() => setActiveItem('about')}
           />
 
           <Menu.Item
-            name="friends"
-            active={activeItem === "friends"}
-            onClick={() => setActiveItem('friends')}
+            name="contact"
+            active={activeItem === "contact"}
+            onClick={() => setActiveItem('contact')}
           />
 
           <Menu.Item position="right" header>
