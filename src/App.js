@@ -1,8 +1,9 @@
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 import NavBar from "./components/NavBar";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Menu from "./components/Menu";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
@@ -12,10 +13,12 @@ const App = () => {
         <header>
           <NavBar/>
         </header>
+        <Switch>
+          <Route exact path="/" component={Menu} />
+          <Route path="/about" component={About}/>
+          <Route path="/contact" component={Contact}/>
+        </Switch>
 
-        <Content />
-        
-        <Footer />
       </div>
     </Router>
   );
