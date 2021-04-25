@@ -47,11 +47,12 @@ const Menu = () => {
             <Grid.Row>
               <Dimmer.Dimmable
                 as={Image}
-                name="roll1"
                 dimmed={active}
                 dimmer={{ active }}
                 onMouseEnter={(e) => {
-                  console.log(e)
+                  if(e.currentTarget) {
+                    setActive(true)
+                  }
                 }}
                 onMouseLeave={() => setActive(false)}
                 size="medium"
