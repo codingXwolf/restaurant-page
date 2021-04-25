@@ -1,8 +1,8 @@
-import { Grid, Image, Header, Dimmer } from "semantic-ui-react";
-import { useState } from "react";
+import { Item } from "semantic-ui-react";
+import Menuitem from './MenuItem'
 
 const Menu = () => {
-  const [active, setActive] = useState(false);
+  
 
   let sushiData = [
     {
@@ -28,63 +28,14 @@ const Menu = () => {
     },
   ];
 
-  // return sushiData.map((sushiItem) => {
-  //   const dimmerContent = (
-  //     <>
-  //       <Header as="h2" inverted>
-  //         {sushiItem.roll}
-  //       </Header>
-
-  //       <p>{sushiItem.description}</p>
-  //       <p>{sushiItem.price}</p>
-  //     </>
-  //   );
 
     return (
       <>
+          <Item.Group>
         {
-          <Grid centered fluid vertical columns={1}>
-            <Grid.Row>
-              <Dimmer.Dimmable
-                as={Image}
-                dimmed={active}
-                dimmer={{ active }}
-                onMouseEnter={(e) => {
-                  if(e.currentTarget) {
-                    setActive(true)
-                  }
-                }}
-                onMouseLeave={() => setActive(false)}
-                size="medium"
-                src="http://2xs0so2vt22q1niww1rw0cm7.wpengine.netdna-cdn.com/wp-content/uploads/2014/10/Dragon-sushi-roll-amazing.jpg"
-              />
-            </Grid.Row>
-            <Grid.Row>
-              <Dimmer.Dimmable
-                as={Image}
-                name="roll2"
-                dimmed={active}
-                dimmer={{ active }}
-                onMouseEnter={() => setActive(true)}
-                onMouseLeave={() => setActive(false)}
-                size="medium"
-                src="http://hauteliving.com/wp-content/uploads/2014/01/NOBU-059-300DPI1.jpg"
-              />
-            </Grid.Row>
-            <Grid.Row>
-              <Dimmer.Dimmable
-                as={Image}
-                name="roll3"
-                dimmed={active}
-                dimmer={{ active }}
-                onMouseEnter={() => setActive(true)}
-                onMouseLeave={() => setActive(false)}
-                size="medium"
-                src="https://media-cdn.tripadvisor.com/media/photo-s/0d/36/34/15/spicy-spider-roll.jpg"
-              />
-            </Grid.Row>
-          </Grid>
+          sushiData.map(sushi => <Menuitem sushi={sushi}/>)
         }
+          </Item.Group>
       </>
     );
 };
