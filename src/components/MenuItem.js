@@ -25,7 +25,7 @@ const MenuItem = ({ sushi }) => {
 
   return (
     <>
-      <Item style={{ textAlign: "center" }}>
+      <Item>
         <Dimmer.Dimmable
           as={Image}
           dimmed={active}

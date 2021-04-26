@@ -31,11 +31,11 @@ const Menu = () => {
 
     return (
       <>
-          <Item.Group>
-        {
-          sushiData.map(sushi => <Menuitem sushi={sushi}/>)
-        }
-          </Item.Group>
+        <Item.Group style={{ textAlign: "center" }}>
+          {sushiData.map((sushi) => (
+            <Menuitem sushi={sushi} />
+          ))}
+        </Item.Group>
       </>
     );
 };
