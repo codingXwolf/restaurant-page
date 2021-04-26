@@ -1,14 +1,10 @@
-import { Segment, Menu} from 'semantic-ui-react';
+import { Segment} from 'semantic-ui-react';
 
 
 const FooterContent = () => {
     return (
       <>
-        <Segment inverted>
-          <Menu inverted pointing secondary stackable>
-            
-          </Menu>
-        </Segment>
+        <Segment inverted>Inverted content.</Segment>
       </>
     );
 }

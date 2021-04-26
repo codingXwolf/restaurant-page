@@ -1,4 +1,11 @@
-footer {
-    position: absolute;
-    bottom: 0;
+.footer-content {
+  position: fixed;
+  display: inline-block;
+  left: 0;
+  /* bottom: 0; */
+  top: auto;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
