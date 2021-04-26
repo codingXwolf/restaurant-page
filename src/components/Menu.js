@@ -6,6 +6,7 @@ const Menu = () => {
 
   let sushiData = [
     {
+      id: 1,
       roll: "Dragon Roll",
       price: "12.50",
       description: " lorem upsum dragon roll",
@@ -13,6 +14,7 @@ const Menu = () => {
         "http://2xs0so2vt22q1niww1rw0cm7.wpengine.netdna-cdn.com/wp-content/uploads/2014/10/Dragon-sushi-roll-amazing.jpg",
     },
     {
+      id: 2,
       roll: "Tuna Roll",
       price: "9.50",
       description: " lorem upsum tuna roll",
@@ -20,6 +22,7 @@ const Menu = () => {
         "http://hauteliving.com/wp-content/uploads/2014/01/NOBU-059-300DPI1.jpg",
     },
     {
+      id: 3,
       roll: "Spider Roll",
       price: "14.50",
       description: " lorem upsum spider roll",

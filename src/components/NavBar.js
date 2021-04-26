@@ -1,5 +1,5 @@
 import { Menu, Segment } from "semantic-ui-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { BrowserRouter as Switch, Route, Link } from "react-router-dom";
 
 const NavBar = () => {
