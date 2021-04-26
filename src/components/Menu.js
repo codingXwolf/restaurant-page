@@ -36,7 +36,7 @@ const Menu = () => {
       <>
         <Item.Group style={{ textAlign: "center" }}>
           {sushiData.map((sushi) => (
-            <Menuitem sushi={sushi} />
+            <Menuitem key={sushi.id} sushi={sushi} />
           ))}
         </Item.Group>
       </>
