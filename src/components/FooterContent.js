@@ -1,12 +1,27 @@
-import { Segment} from 'semantic-ui-react';
-
+import { Menu, Icon } from "semantic-ui-react";
 
 const FooterContent = () => {
-    return (
-      <>
-        <Segment inverted>Inverted content.</Segment>
-      </>
-    );
-}
+  return (
+    <>
+      <Menu className="footer-content" inverted size="massive" fixed="bottom" icon borderless>
+        <Menu.Item>
+          <Icon name="twitter" size="large" />
+        </Menu.Item>
+        <Menu.Item>
+          <Icon name="instagram" size="large" />
+        </Menu.Item>
+        <Menu.Item>
+          <Icon name="facebook" size="large" />
+        </Menu.Item>
 
-export default FooterContent
+        <Menu.Menu position="right">
+          <Menu.Item>
+            <span>This is an assignment for The Odin Project. Made by Jaime Ortiz</span>
+          </Menu.Item>
+        </Menu.Menu>
+      </Menu>
+    </>
+  );
+};
+
+export default FooterContent;
