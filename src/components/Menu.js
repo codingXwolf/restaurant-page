@@ -1,9 +1,7 @@
-import { Item } from "semantic-ui-react";
-import Menuitem from './MenuItem'
+import { Item, Segment } from "semantic-ui-react";
+import Menuitem from "./MenuItem";
 
 const Menu = () => {
-  
-
   let sushiData = [
     {
       id: 1,
@@ -31,16 +29,17 @@ const Menu = () => {
     },
   ];
 
-
-    return (
-      <>
-        <Item.Group style={{ textAlign: "center" }}>
-          {sushiData.map((sushi) => (
+  return (
+    <>
+      <Item.Group>
+        {sushiData.map((sushi) => (
+          <Segment basic textAlign="center">
             <Menuitem key={sushi.id} sushi={sushi} />
-          ))}
-        </Item.Group>
-      </>
-    );
+          </Segment>
+        ))}
+      </Item.Group>
+    </>
+  );
 };
 
 export default Menu;

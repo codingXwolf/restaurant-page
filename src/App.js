@@ -5,7 +5,6 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Menu from "./components/Menu";
 import FooterContent from "./components/FooterContent";
-// import { Menu, Input } from 'semantic-ui-react'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
@@ -15,14 +14,15 @@ const App = () => {
         <header>
           <NavBar />
         </header>
-        <Switch>
-          <Route exact path="/" component={Menu} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+
+          <Switch>
+            <Route exact path="/" component={Menu} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
 
         <footer>
-          <FooterContent/>
+          <FooterContent />
         </footer>
       </div>
     </Router>
