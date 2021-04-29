@@ -25,7 +25,7 @@ const MenuItem = ({ sushi }) => {
 
   return (
     <>
-      <Item> 
+      <Item key={sushi.key}> 
         <Dimmer.Dimmable
           as={Image}
           dimmed={active}
