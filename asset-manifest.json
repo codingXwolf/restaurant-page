@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/restaurant-page/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/restaurant-page/static/js/main.2d3106d8.chunk.js",
-    "main.js.map": "/restaurant-page/static/js/main.2d3106d8.chunk.js.map",
-    "runtime-main.js": "/restaurant-page/static/js/runtime-main.58781754.js",
-    "runtime-main.js.map": "/restaurant-page/static/js/runtime-main.58781754.js.map",
-    "static/js/2.2e955720.chunk.js": "/restaurant-page/static/js/2.2e955720.chunk.js",
-    "static/js/2.2e955720.chunk.js.map": "/restaurant-page/static/js/2.2e955720.chunk.js.map",
-    "static/js/3.2e8f0a79.chunk.js": "/restaurant-page/static/js/3.2e8f0a79.chunk.js",
-    "static/js/3.2e8f0a79.chunk.js.map": "/restaurant-page/static/js/3.2e8f0a79.chunk.js.map",
+    "main.css": "/restaurant-page/static/css/main.afd7172b.chunk.css",
+    "main.js": "/restaurant-page/static/js/main.5ea56e1e.chunk.js",
+    "main.js.map": "/restaurant-page/static/js/main.5ea56e1e.chunk.js.map",
+    "runtime-main.js": "/restaurant-page/static/js/runtime-main.6e3526d7.js",
+    "runtime-main.js.map": "/restaurant-page/static/js/runtime-main.6e3526d7.js.map",
+    "static/css/2.0496deec.chunk.css": "/restaurant-page/static/css/2.0496deec.chunk.css",
+    "static/js/2.961af51e.chunk.js": "/restaurant-page/static/js/2.961af51e.chunk.js",
+    "static/js/2.961af51e.chunk.js.map": "/restaurant-page/static/js/2.961af51e.chunk.js.map",
     "index.html": "/restaurant-page/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/restaurant-page/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.2e955720.chunk.js.LICENSE.txt": "/restaurant-page/static/js/2.2e955720.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/restaurant-page/static/media/logo.6ce24c58.svg"
+    "static/css/2.0496deec.chunk.css.map": "/restaurant-page/static/css/2.0496deec.chunk.css.map",
+    "static/css/main.afd7172b.chunk.css.map": "/restaurant-page/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.961af51e.chunk.js.LICENSE.txt": "/restaurant-page/static/js/2.961af51e.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/restaurant-page/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.58781754.js",
-    "static/js/2.2e955720.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.2d3106d8.chunk.js"
+    "static/js/runtime-main.6e3526d7.js",
+    "static/css/2.0496deec.chunk.css",
+    "static/js/2.961af51e.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.5ea56e1e.chunk.js"
   ]
 }
